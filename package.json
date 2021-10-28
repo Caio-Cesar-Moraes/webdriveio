@@ -4,7 +4,10 @@
     "description": "modelo",
     "main": "index.js",
     "scripts": {
-        "test": "wdio run wdio.conf.js"
+        "test": "wdio run wdio.conf.js",
+        "backstop": "backstop init",
+        "test:front": "backstop test",
+        "approver:front": "backstop approve"
     },
     "repository": {
         "type": "git",
